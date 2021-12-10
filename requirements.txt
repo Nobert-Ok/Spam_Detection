@@ -7,3 +7,4 @@ surprise~=0.1
 xlrd
 openpyxl
 nltk
+tensorflow-cpu
