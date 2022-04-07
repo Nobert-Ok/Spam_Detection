@@ -36,7 +36,9 @@ def transform_text(text):
 tfidf = pickle.load(open('vectorizer.pkl','rb'))
 model = pickle.load(open('model.pkl','rb'))
 
-st.title("Email/SMS Spam Classifier")
+st.title("Fake and Geniune Review Detection")
+
+st.text('The Review system is a system that uses BiLSTM model to detect whether an inputted review is fake or genuine')
 
 input_sms = st.text_area("Enter the message")
 
